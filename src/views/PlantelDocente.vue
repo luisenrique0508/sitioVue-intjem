@@ -107,12 +107,20 @@
         </div>
       </div>
     </div>
+    
+    <!-- Contacto -->
+    <ContactoSection />
   </div>
 </template>
 
 <script>
+import ContactoSection from '@/components/ContactoSection.vue'
+
 export default {
   name: 'PlantelDocenteView',
+  components: {
+    ContactoSection
+  },
   data() {
     return {
       carreraSeleccionada: '',

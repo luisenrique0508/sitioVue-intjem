@@ -19,10 +19,10 @@ export default {
 
 <style scoped>
 footer {
-  background: linear-gradient(90deg, #9370db, #4169e1);
+  background: linear-gradient(135deg, #667eea 0%, #694092 100%);
   color: white;
   padding: 1.5rem 0;
-  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-top: 2px solid rgba(255, 255, 255, 0.26);
   position: relative;
 }
 

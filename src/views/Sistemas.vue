@@ -369,16 +369,21 @@
 
     <!-- Convenios -->
     <ConveniosSection />
+    
+    <!-- Contacto -->
+    <ContactoSection />
   </div>
 </template>
 
 <script>
 import ConveniosSection from '@/components/ConveniosSection.vue'
+import ContactoSection from '@/components/ContactoSection.vue'
 
 export default {
   name: 'SistemasView',
   components: {
-    ConveniosSection
+    ConveniosSection,
+    ContactoSection
   },
   data() {
     return {
